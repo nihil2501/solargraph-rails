@@ -20,7 +20,9 @@ module Solargraph
         citext: 'String',
         binary: 'String',
         tsvector: 'String',
-        timestamp: 'ActiveSupport::TimeWithZone'
+        timestamp: 'ActiveSupport::TimeWithZone',
+        enum: 'String',
+        geography: 'RGeo::Feature::Geometry'
       }
 
       def self.instance
