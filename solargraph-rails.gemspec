@@ -4,6 +4,7 @@ require 'solargraph/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'solargraph-rails'
+  spec.metadata['github_repo'] = 'https://github.com/nihil2501/solargraph-rails'
   spec.version = Solargraph::Rails::VERSION
   spec.authors = ['Fritz Meissner']
   spec.email = ['fritz.meissner@gmail.com']
